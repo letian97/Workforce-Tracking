@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Retrofit 2</string>
+
+
+    <string-array name="site_array">
+        <item>Choose a site</item>
+        <item>Dyson</item>
+        <item>VS</item>
+        <item>Pilot Work</item>
+    </string-array>
+
+    <string-array name="duration_array">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+
+
+
+    <string-array name="description_array">
+        <item>Choose a description</item>
+        <item>maintainence</item>
+        <item>discussion</item>
+        <item>take order</item>
+    </string-array>
+
+
+</resources>
