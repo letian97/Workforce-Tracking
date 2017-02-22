@@ -1,4 +1,4 @@
-package com.example.theodhor.retrofit2;
+package com.letian.WorkforceTracking.HotAirTechnology;
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -13,9 +13,9 @@ import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.example.theodhor.retrofit2.Events.CustomOnItemSelectedListener;
-import com.example.theodhor.retrofit2.Events.ErrorEvent;
-import com.example.theodhor.retrofit2.Events.ServerEvent;
+import com.letian.WorkforceTracking.HotAirTechnology.Events.CustomOnItemSelectedListener;
+import com.letian.WorkforceTracking.HotAirTechnology.Events.ErrorEvent;
+import com.letian.WorkforceTracking.HotAirTechnology.Events.ServerEvent;
 import com.squareup.otto.Subscribe;
 
 

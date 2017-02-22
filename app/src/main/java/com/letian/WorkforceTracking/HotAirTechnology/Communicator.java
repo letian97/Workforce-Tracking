@@ -1,9 +1,9 @@
-package com.example.theodhor.retrofit2;
+package com.letian.WorkforceTracking.HotAirTechnology;
 
 import android.util.Log;
 
-import com.example.theodhor.retrofit2.Events.ErrorEvent;
-import com.example.theodhor.retrofit2.Events.ServerEvent;
+import com.letian.WorkforceTracking.HotAirTechnology.Events.ErrorEvent;
+import com.letian.WorkforceTracking.HotAirTechnology.Events.ServerEvent;
 import com.squareup.otto.Produce;
 
 import okhttp3.OkHttpClient;
@@ -14,9 +14,7 @@ import retrofit2.Response;
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 
-/**
- * Created by Dori on 12/28/2016.
- */
+
 
 public class Communicator {
     private static  final String TAG = "Communicator";
