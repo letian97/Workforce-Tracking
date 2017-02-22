@@ -41,6 +41,17 @@
             android:entries="@array/site_array"
             android:textAllCaps="true"/>
 
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:id="@+id/fromInput"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint=""
+                android:visibility="gone"/>
+        </android.support.design.widget.TextInputLayout>
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -53,6 +64,18 @@
             android:layout_height="wrap_content"
             android:entries="@array/site_array"
             android:textAllCaps="true"/>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:id="@+id/toInput"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint=""
+                android:visibility="gone"/>
+        </android.support.design.widget.TextInputLayout>
+
 
         <TextView
             android:layout_width="match_parent"
@@ -76,19 +99,17 @@
             android:layout_height="wrap_content"
             android:entries="@array/description_array" />
 
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:id="@+id/descriptionInput"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint=""
+                android:visibility="gone"/>
+        </android.support.design.widget.TextInputLayout>
 
-
-        <!--<android.support.design.widget.TextInputLayout-->
-            <!--android:layout_width="match_parent"-->
-            <!--android:layout_height="wrap_content">-->
-
-            <!--<EditText-->
-                <!--android:id="@+id/siteInput"-->
-                <!--android:layout_width="match_parent"-->
-                <!--android:layout_height="wrap_content"-->
-                <!--android:hint="Site:" />-->
-
-        <!--</android.support.design.widget.TextInputLayout>-->
 
         <!--<android.support.design.widget.TextInputLayout-->
             <!--android:layout_width="match_parent"-->
@@ -115,11 +136,11 @@
         <!--</android.support.design.widget.TextInputLayout>-->
 
         <CheckBox
-            android:id="@+id/"
+            android:id="@+id/type_checkbox"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:paddingLeft="24dp"
-            android:text="Choice not in the "
+            android:text="type for item not in the list "
             android:textSize="16sp" />
 
 
