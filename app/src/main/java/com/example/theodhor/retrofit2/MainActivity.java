@@ -4,6 +4,7 @@ import android.content.Context;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.telephony.SmsManager;
 import android.view.View;
 import android.widget.Button;
 import android.widget.CheckBox;
@@ -103,24 +104,19 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
-//    //get string from spinner and structure it into sms
-//    private void sendSMS() {
-//
-//        name = nameET.getText().toString();
-//        site = siteET.getText().toString();
-//        duration = durationET.getText().toString();
-//        description = descriptionET.getText().toString();
-//
-//        String SMS = "Name: "+name;
-//        SMS += "\nSite: " + site;
-//        SMS += "\nDuration: " + duration;
-//        SMS += "\nDescription:" + description;
-//
-//        SmsManager smsManager = SmsManager.getDefault();
-//        smsManager.sendTextMessage("0127338110", null, SMS, null, null);
-//        return;
-//
-//    }
+    //get string from spinner and structure it into sms
+    private void sendSMS() {
+
+        String SMS = "Name: "+name;
+        SMS += "\nFrom: " + fromSite;
+        SMS += "\nTo: " + toSite;
+        SMS += "\nDuration: " + duration;
+        SMS += "\nDescription: " + description;
+
+        SmsManager smsManager = SmsManager.getDefault();
+        smsManager.sendTextMessage("0167362339", null, SMS, null, null);
+        return;
+    }
 
     //add listener for the spinners
     public void addListenerOnSpinnerItemSelection() {
@@ -152,7 +148,7 @@ public class MainActivity extends AppCompatActivity {
                 //send the information to server
                 useSend(name, fromSite, toSite, duration, description);
 
-                //                sendSMS();
+                sendSMS();
                 saveName();
 
             }
@@ -169,6 +165,7 @@ public class MainActivity extends AppCompatActivity {
                     toET.setVisibility(View.VISIBLE);
                     fromET.setVisibility(View.VISIBLE);
                     descriptionET.setVisibility(View.VISIBLE);
+
                     //set spinners to be invisible
                     toSpinner.setVisibility(View.GONE);
                     fromSpinner.setVisibility(View.GONE);
@@ -179,6 +176,7 @@ public class MainActivity extends AppCompatActivity {
                     toET.setVisibility(View.GONE);
                     fromET.setVisibility(View.GONE);
                     descriptionET.setVisibility(View.GONE);
+
                     //set spinners to be visible
                     toSpinner.setVisibility(View.VISIBLE);
                     fromSpinner.setVisibility(View.VISIBLE);
