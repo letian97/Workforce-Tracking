@@ -24,3 +24,9 @@ Permission to make this mobile app open source has been granted by G S Chua, Gen
 
 -If the input item intended is not in the drop down list, it allows user to type it manually. By ticking the check box, edit text for from/to, and description will appear to allow typing.  
  
+####OBJECTIVE:
+-asist in management of project engineers, by keeping track of their trips to companies' site
+
+-enable report to be generated efficiently. Instead of having a clerk to type in all the engineers' site activities in the excel spreadsheet manually, the report now can be exported from the server's database easily
+
+-make calculating project job costing easier. The total number of hours spent by project engineers on various company sites can now be easily obtained from the server database for calculation purpose. 
