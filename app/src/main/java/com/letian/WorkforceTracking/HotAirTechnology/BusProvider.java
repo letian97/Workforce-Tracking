@@ -1,8 +1,6 @@
 package com.letian.WorkforceTracking.HotAirTechnology;
 
-/**
- * Created by Theodhor Pandeli on 2/11/2016.
- */
+
 
 import com.squareup.otto.Bus;
 

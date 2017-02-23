@@ -14,7 +14,6 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.letian.WorkforceTracking.HotAirTechnology.Events.CustomOnItemSelectedListener;
-import com.letian.WorkforceTracking.HotAirTechnology.Events.ErrorEvent;
 import com.letian.WorkforceTracking.HotAirTechnology.Events.ServerEvent;
 import com.squareup.otto.Subscribe;
 
@@ -86,10 +85,10 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    @Subscribe
-    public void onErrorEvent(ErrorEvent errorEvent) {
-        Toast.makeText(this, "no!!!" + errorEvent.getErrorMsg(), Toast.LENGTH_SHORT).show();
-    }
+//    @Subscribe
+//    public void onErrorEvent(ErrorEvent errorEvent) {
+//        Toast.makeText(this, "no!!!" + errorEvent.getErrorMsg(), Toast.LENGTH_SHORT).show();
+//    }
 
     @Override
     public void onResume() {

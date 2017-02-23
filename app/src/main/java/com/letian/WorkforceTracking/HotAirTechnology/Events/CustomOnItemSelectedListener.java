@@ -8,7 +8,6 @@ import android.widget.Toast;
  * Created by letian on 7/2/17.
  */
 
-
 public class CustomOnItemSelectedListener implements AdapterView.OnItemSelectedListener {
 
 
@@ -17,7 +16,7 @@ public class CustomOnItemSelectedListener implements AdapterView.OnItemSelectedL
         String itemSelected = parent.getItemAtPosition(pos).toString();
 
         Toast.makeText(parent.getContext(),
-                "OnItemSelectedListener : " + itemSelected,
+                itemSelected +" is selected",
                 Toast.LENGTH_SHORT).show();
 
     }

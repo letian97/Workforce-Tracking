@@ -24,8 +24,7 @@
                 android:id="@+id/nameInput"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Name:" />
-
+                android:hint="NAME:" />
         </android.support.design.widget.TextInputLayout>
 
         <TextView
@@ -39,7 +38,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:entries="@array/site_array"
-            android:textAllCaps="true"/>
+            android:textAllCaps="true"
+            android:spinnerMode="dialog" />
 
         <android.support.design.widget.TextInputLayout
             android:layout_width="match_parent"
@@ -63,7 +63,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:entries="@array/site_array"
-            android:textAllCaps="true"/>
+            android:textAllCaps="true"
+            android:spinnerMode="dialog"/>
 
         <android.support.design.widget.TextInputLayout
             android:layout_width="match_parent"
@@ -80,24 +81,29 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Duration:"/>
+            android:text="Duration:"
+            android:textAllCaps="true"/>
 
         <Spinner
             android:id="@+id/duration_spinner"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:entries="@array/duration_array" />
+            android:entries="@array/duration_array"
+            android:spinnerMode="dialog"
+            android:layout_marginBottom="10dp"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Description:"/>
+            android:text="Description:"
+            android:textAllCaps="true"/>
 
         <Spinner
             android:id="@+id/description_spinner"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:entries="@array/description_array" />
+            android:entries="@array/description_array"
+            android:spinnerMode="dialog"/>
 
         <android.support.design.widget.TextInputLayout
             android:layout_width="match_parent"
@@ -115,9 +121,7 @@
             android:id="@+id/type_checkbox"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:paddingLeft="24dp"
-            android:text="type for item not in the list "
-            android:textSize="16sp" />
+            android:text="@string/tick_show_edittext" />
 
 
 

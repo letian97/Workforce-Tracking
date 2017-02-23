@@ -1,30 +1,42 @@
 <resources>
     <string name="app_name">Hot Air Technology</string>
+    <string name="tick_show_edittext">Tick this to type in all items manually</string>
 
 
     <string-array name="site_array">
         <item>Choose a site</item>
-        <item>Dyson</item>
-        <item>VS</item>
-        <item>Pilot Work</item>
+        <item>HotAir office(Kulai)</item>
+        <item>Dyson (Senai)</item>
+        <item>Skp(Senai)</item>
+        <item>VS(Senai)</item>
+        <item>Pilot Work(Skudai)</item>
+        <item>Classic Advantages(Senai)</item>
+        <item>Meban(Desa Cemerlang)</item>
+        <item>Flectronic(Senai)</item>
+        <item>Flectronic(PTP)</item>
+        <item>Ata Tampoi(site 1)</item>
+        <item>Ata Tampoi(site 2)</item>
+        <item>Ata Tampoi(site 3)</item>
     </string-array>
 
     <string-array name="duration_array">
-        <item>0</item>
+        <item>Choose a duration(hours)</item>
         <item>1</item>
         <item>2</item>
         <item>3</item>
         <item>4</item>
         <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
     </string-array>
-
-
 
     <string-array name="description_array">
         <item>Choose a description</item>
-        <item>maintainence</item>
-        <item>discussion</item>
-        <item>take order</item>
+        <item>Project meeting</item>
+        <item>machines maintenance/troubleshooting</item>
+        <item>testing and commissioning</item>
+        <item>delivery of spare part/ documents</item>
     </string-array>
 
 
