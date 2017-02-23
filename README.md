@@ -13,7 +13,7 @@ Permission to make this mobile app open source has been granted by G S Chua, Gen
 ![ready_to_send](https://cloud.githubusercontent.com/assets/25849407/23252206/eb4aec7e-f9ea-11e6-8523-e92148205b0e.png)
 ![app_icon](https://cloud.githubusercontent.com/assets/25849407/23252221/038bc0e2-f9eb-11e6-8194-89f2646ede00.png)
 
-###FUNCTION:
+####FUNCTION:
 -take in details of site trip from engineers through dropdown list/ manual typing
 
 -the details will be sent to manager via SMS 
