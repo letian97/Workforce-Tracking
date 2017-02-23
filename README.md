@@ -1,6 +1,6 @@
 #Hot Air Technology Workforce Tracking App
 ####NOTE:
-Permission to make this mobile app open source has been granted by G S Chua, General Manager of Hot Air Technology 
+Permission to make this mobile app open source has been granted by G S Chua, General Manager of Hot Air Technology (gschua@hotair.com.my)
 
 ![mainactivity](https://cloud.githubusercontent.com/assets/25849407/23251724/533454f8-f9e9-11e6-88c5-ffd3f9415af1.png)
 ![name_memorised](https://cloud.githubusercontent.com/assets/25849407/23252634/81d18a08-f9ec-11e6-9876-bf6cc2bc4ec6.png)
