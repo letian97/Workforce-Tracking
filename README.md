@@ -22,7 +22,7 @@ Permission to make this mobile app open source has been granted by G S Chua, Gen
 
 -the name will be memorised by the app after using it the first time, and will display itself in the edit text next time the app is opened.  
 
--If the input item intended is not in the drop down list, it allows user to type it manually. By ticking the check box, edit text for from/to, and description will appear to allow typing.  
+-If the input item intended is not in the drop down list, it allows user to type it manually. By ticking the check box, edit text for "from", "to", and "description" will replace dropdown list to allow typing.  
  
 ####OBJECTIVE:
 -asist in management of project engineers, by keeping track of their trips to companies' site
